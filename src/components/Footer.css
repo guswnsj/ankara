@@ -3,8 +3,17 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
-    position: absolute;
+    padding: 2px 0; /* 줄어든 패딩 */
+    position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100%; /* 너비는 전체를 유지 */
+    left: 0; /* 왼쪽 정렬 */
+    display: none; /* 기본적으로 숨김 */
+    font-size: 10px; /* 작은 폰트 크기로 조정 */
+    height: auto; /* 높이를 자동으로 조정 */
+    line-height: 12px; /* 줄 간격 줄이기 */
+}
+
+.footer-visible {
+    display: block; /* 스크롤이 페이지 맨 밑에 도달했을 때 보이게 설정 */
 }

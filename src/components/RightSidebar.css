@@ -1,34 +1,52 @@
-/* RightSidebar.css */
 .right-sidebar {
     width: 200px;
     background-color: #003366;
     padding: 20px;
-    height: 100vh;
     box-sizing: border-box;
+    color: #FFF;
+    top: 0;
+    left: 0;
+    position: sticky;
+    min-height: 200vh;
+}
+    
+.right-sidebar .news-box {
+  background-color: #808080;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
 }
 
-.right-sidebar h3 {
-    color: #333;
+.right-sidebar .news-box h3 {
+  color: #c81b1b;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #777;
+  margin-bottom: 15px;
 }
 
-.right-sidebar ul {
-    list-style: none;
-    padding: 0;
+.right-sidebar .news-box ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.right-sidebar ul li {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 10px;
+.right-sidebar .news-box ul li {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  color: #fff;
 }
 
-.right-sidebar ul li:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
+.right-sidebar .news-box ul li:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
 }
 
-.right-sidebar .views {
-    display: block;
-    color: #777;
-    font-size: 12px;
+.right-sidebar .ad-banner {
+  background-color: #003366; /* 어두운 청색 배경으로 변경 */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 더 약한 박스 그림자로 변경 */
+  text-align: center;
 }
